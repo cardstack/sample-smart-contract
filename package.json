@@ -17,6 +17,10 @@
     "test": "ember test"
   },
   "devDependencies": {
+    "@cardstack/eslint-config": "^0.8.0",
+    "@cardstack/ethereum": "^0.10.1",
+    "@cardstack/hub": "^0.10.1",
+    "@cardstack/test-support": "^0.10.1",
     "broccoli-asset-rev": "^2.7.0",
     "ember-ajax": "^3.0.0",
     "ember-cli": "~3.2.0",
@@ -44,5 +48,9 @@
   },
   "engines": {
     "node": "6.* || 8.* || >= 10.*"
+  },
+  "dependencies": {
+    "@cardstack/jsonapi": "^0.10.1",
+    "eslint-plugin-node": "^7.0.1"
   }
 }
